@@ -38,7 +38,7 @@
                         <a class="nav-link" href="create.php">Post A Job Listing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Check out the Source Code on Github</a>
+                        <a class="nav-link" target="_blank" href="https://github.com/AdnanAAzad/JobListerApp">Check out the Source Code on Github</a>
                     </li>
                 </ul>
 
