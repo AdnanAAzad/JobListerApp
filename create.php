@@ -5,7 +5,8 @@ include_once 'config/init.php';
 $job = new Job;
 
 // check to see if job-create.php submitted data
-if (isset($POST['submit'])) {
+if (isset($_POST['submit'])) {
+    echo 'test';
     // Data Array
     // setting input from submit that comes from job-create.php
     // into an array

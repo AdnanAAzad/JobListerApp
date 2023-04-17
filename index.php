@@ -1,10 +1,8 @@
-
 <?php
 include_once 'config/init.php';
 
 $job = new Job;
 $template = new Template('templates/frontpage.php');
-
 
 $category = isset($_GET['category']) ? $_GET['category'] : null;
 if ($category) { // If there is a category in Search bar
@@ -16,4 +14,5 @@ if ($category) { // If there is a category in Search bar
 }
 
 $template->categories = $job->getCategories();
+
 echo $template;
